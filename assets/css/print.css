@@ -1,0 +1,52 @@
+
+
+@media print {
+ body, #content, #container {
+	width: 21cm;
+	Height: 29.7cm;
+	margin: -2cm 0 0 0;
+	float: none;
+	background: #fff url(none);
+	font: 1em Georgia, "Times New Roman", Times, serif;
+	color: #000; 
+ }
+ h1,h2,h3,h4,h5,h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+ }
+ h1 { font-size: 250%; }
+ h2 { font-size: 175%; }
+ h3 { font-size: 135%; }
+ h4 { font-size: 100%; font-variant: small-caps; }
+ h5 { font-size: 100%; }
+ h6 { font-size: 90%; font-style: italic; }
+ p {font-size: 1em; line-height: 1.2em;}
+ #page-title, #page-sidebar h2, a:hover {display: none !important}
+ #header, .header-top, .logo .site-title, .logo .logo-img, .phone, .phone span, .phone a, cite {display: none !important}
+.quote, .quote-underline {display: none !important}
+.highlights, .highlights img, .highlights-spacer, .benefits, .price-disclaimer {display: none !important}
+.btn-compare, .btn-print, .btn-print:hover {display: none !important}
+.terms {
+	margin: 50px 0 0 50px;
+	font-size: 1.050em;
+ }
+.terms li {
+	list-style-type: decimal;
+	padding-bottom: 12px;
+ }
+.gmap, .video, .video-container, .video iframe, .video-container iframe, .video object, 
+.video-container object, .video embed, .video-container embed {display: none !important}
+.testimonials p, .testimonials h4, .testimonials img, .testimonials small {display: none !important}
+ #toTop, #toTopHover, #toTop:active, #toTop:focus {display: none !important}
+ #af-form input[type="text"], #af-form input[type="text"], #af-form textarea, #af-form input[type="text"]:focus,
+ #af-form textarea:focus, #af-form textarea, .af-outer, label.error, label.ferror,
+ #af-form input.error, textarea.error, #progress {display: none !important}
+
+.pricing, .pricing ul, .pricing .well, .pricing .well .well, .pricing .featured,
+.pricing .featured .pricing-plan, .pricing .pricing-plan, .pricing .pricing-price,
+.pricing .pricing-list .blue, .pricing .pricing-list li, .pricing .pricing-list li:nth-child(2n),
+.pricing .featured .pricing-list li:nth-child(2n), .pricing h4, .well {display: none !important}
+
+ #footer-menu, #footer-menu ul, #footer-menu li, #footer-menu a, #footer-menu a:hover,
+ #footer-menu p.copyright, p.copyright a, p.copyright a:hover {display: none !important}
+}
